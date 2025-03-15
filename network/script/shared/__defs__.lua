@@ -1,0 +1,3 @@
+---@alias int number
+---@alias float number
+---@alias double number
