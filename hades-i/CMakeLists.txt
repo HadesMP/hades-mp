@@ -1,5 +1,9 @@
 set(HADES_I_SOURCES
-        src/DllMain.cpp)
+        src/DllMain.cpp
+        src/mod/main_menu.cpp
+        include/mod/main_menu.hpp)
+
+include_directories(include)
 
 add_library(hades-i SHARED ${HADES_I_SOURCES})
 target_link_libraries(hades-i sdk)

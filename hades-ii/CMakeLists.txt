@@ -1,8 +1,7 @@
 set(HADES_II_SOURCES
         src/DllMain.cpp
         src/mod/main_menu.cpp
-        include/mod/main_menu.hpp
-        src/net/network_manager.cpp)
+        include/mod/main_menu.hpp)
 
 include_directories(include)
 
